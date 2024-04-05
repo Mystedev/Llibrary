@@ -1,0 +1,71 @@
+*{
+    background-color: transparent;
+    font-family: 'Cascadia Code';
+}
+button{
+    background-color: white;
+    border: 2px solid ;
+    width: 320px;
+    height: 70px;
+    margin-top: 150px;
+    margin-left: 800px;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/*FORMULARIO PARA AÑADIR EL LIBRO*/
+#new-book-form{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    outline: none;
+    transition: .3s ease-in-out;
+    margin-bottom: 10px;
+}
+input[type="text"]:focus,input[type="number"]:focus,select:focus{
+    border-color: gray;
+    box-shadow: 2px 2px 5px black;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+input{
+    width: 250px;
+    height: 20px;
+}
+.crear-libro{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.book-author{
+    color: black;
+    font-size: 20px;
+}
+.card-body{
+    background-color: lightcoral;
+    border-radius: 10px;
+    border: 2px solid;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.read-status{
+    background-color: transparent;
+    text-align: center;
+    width: max-content;
+    padding: 4px;
+}
